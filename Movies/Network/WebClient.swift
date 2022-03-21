@@ -26,7 +26,7 @@ open class WebClient {
                     completionHandler(URLResponse(success: (data, response)))
                 }
                 else {
-                    completionHandler(URLResponse(failure: error ?? NSError.init(domain: "com.nyenews",
+                    completionHandler(URLResponse(failure: error ?? NSError.init(domain: "com.movies",
                                                                                       code: 9999,
                                                                                       userInfo: [:])))
                 }

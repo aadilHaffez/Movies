@@ -45,6 +45,10 @@
 		8084D1EE27E90F6D000341D0 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1ED27E90F6D000341D0 /* JSONManager.swift */; };
 		8084D1F027E910DC000341D0 /* MockMoviesListingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1EF27E910DC000341D0 /* MockMoviesListingTest.swift */; };
 		8084D1F427E911C9000341D0 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 8084D1F327E911C9000341D0 /* Movies.json */; };
+		8084D1F827E915E7000341D0 /* MockMoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1F727E915E7000341D0 /* MockMoviesDetailsViewController.swift */; };
+		8084D1FA27E91640000341D0 /* MockMoviesDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1F927E91640000341D0 /* MockMoviesDetailsInteractor.swift */; };
+		8084D1FC27E91677000341D0 /* MockMoviesDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1FB27E91677000341D0 /* MockMoviesDetailsRouter.swift */; };
+		8084D1FE27E917A0000341D0 /* MoviesDetailsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084D1FD27E917A0000341D0 /* MoviesDetailsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		8084D1ED27E90F6D000341D0 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		8084D1EF27E910DC000341D0 /* MockMoviesListingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMoviesListingTest.swift; sourceTree = "<group>"; };
 		8084D1F327E911C9000341D0 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		8084D1F727E915E7000341D0 /* MockMoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMoviesDetailsViewController.swift; sourceTree = "<group>"; };
+		8084D1F927E91640000341D0 /* MockMoviesDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMoviesDetailsInteractor.swift; sourceTree = "<group>"; };
+		8084D1FB27E91677000341D0 /* MockMoviesDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMoviesDetailsRouter.swift; sourceTree = "<group>"; };
+		8084D1FD27E917A0000341D0 /* MoviesDetailsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +187,7 @@
 		807F63A827E07131003EF1F1 /* MoviesTests */ = {
 			isa = PBXGroup;
 			children = (
+				8084D1F627E915C9000341D0 /* MoviesDetails */,
 				8084D1E527E90DA2000341D0 /* MoviesListing */,
 				807F63A927E07131003EF1F1 /* MoviesTests.swift */,
 			);
@@ -308,6 +317,17 @@
 				8084D1F327E911C9000341D0 /* Movies.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8084D1F627E915C9000341D0 /* MoviesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8084D1F727E915E7000341D0 /* MockMoviesDetailsViewController.swift */,
+				8084D1F927E91640000341D0 /* MockMoviesDetailsInteractor.swift */,
+				8084D1FB27E91677000341D0 /* MockMoviesDetailsRouter.swift */,
+				8084D1FD27E917A0000341D0 /* MoviesDetailsTest.swift */,
+			);
+			path = MoviesDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,10 +496,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8084D1FA27E91640000341D0 /* MockMoviesDetailsInteractor.swift in Sources */,
+				8084D1F827E915E7000341D0 /* MockMoviesDetailsViewController.swift in Sources */,
 				8084D1EB27E90DFF000341D0 /* MockMoviesListingInteractor.swift in Sources */,
 				8084D1E727E90DC1000341D0 /* MockMoviesListingViewController.swift in Sources */,
+				8084D1FC27E91677000341D0 /* MockMoviesDetailsRouter.swift in Sources */,
 				8084D1F027E910DC000341D0 /* MockMoviesListingTest.swift in Sources */,
 				807F63AA27E07131003EF1F1 /* MoviesTests.swift in Sources */,
+				8084D1FE27E917A0000341D0 /* MoviesDetailsTest.swift in Sources */,
 				8084D1E927E90DE5000341D0 /* MockMoviesListingRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

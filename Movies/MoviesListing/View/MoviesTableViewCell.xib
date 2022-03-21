@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,9 +56,9 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="imageview_news" destination="x8g-Vd-6d4" id="wV9-tY-U9b"/>
-                <outlet property="label_date" destination="Qe2-g9-Ai6" id="mFy-4B-WGD"/>
-                <outlet property="label_title" destination="mc6-pF-M0Z" id="ZMq-ZX-LIa"/>
+                <outlet property="imageViewMovies" destination="x8g-Vd-6d4" id="8c5-bd-Blq"/>
+                <outlet property="labelDate" destination="Qe2-g9-Ai6" id="Y48-SD-dne"/>
+                <outlet property="labelTitle" destination="mc6-pF-M0Z" id="8Pc-vW-hSb"/>
             </connections>
             <point key="canvasLocation" x="224.80000000000001" y="198.80059970014995"/>
         </tableViewCell>

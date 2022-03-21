@@ -22,16 +22,16 @@ class MoviesListingViewController: UIViewController {
         
         tableview_movies_listing.accessibilityIdentifier = "MoviesTableViewIdentifier"
 
-        //Fetch News.
+        //Fetch Movies.
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            self.fetchNews()
+            self.fetchMovies()
         }
 
     }
     
     
-    private func fetchNews() {
+    private func fetchMovies() {
          if NetworkManager.shared.isReachable {
                 self.loader.startAnimating()
                 self.presenter?.startFetchingMovies(page: 1)

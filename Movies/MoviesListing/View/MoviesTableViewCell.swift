@@ -9,9 +9,9 @@ import UIKit
 
 class MoviesTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var imageview_news: UIImageView!
-    @IBOutlet weak var label_title: UILabel!
-    @IBOutlet weak var label_date: UILabel!
+    @IBOutlet weak var imageViewMovies: UIImageView!
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelDate: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,15 +28,14 @@ class MoviesTableViewCell: UITableViewCell {
         
 
         DispatchQueue.main.async {
-            self.label_title.text = news.title
-//            self.label_by.text = news.byline
-            self.label_date.text = news.release_date?.getYearFromDate()
+            self.labelTitle.text = news.title
+            self.labelDate.text = news.release_date?.getYearFromDate()
         }
         
         //Check count to avoid crash - index out of bound
         if let media = news.poster_path,
             let url = URL(string: "https://image.tmdb.org/t/p/w500\(media)")  {
-                    self.imageview_news.downloaded(from: url)
+                    self.imageViewMovies.downloaded(from: url)
         }
     }
     

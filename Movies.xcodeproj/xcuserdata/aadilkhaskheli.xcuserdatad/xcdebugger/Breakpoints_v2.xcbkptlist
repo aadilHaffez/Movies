@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C4092391-626C-4512-B334-C938E62F41B5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3876B40-5DB5-4D97-8550-0BD163AFF422"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movies/UIImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "downloaded(from:contentMode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB83896D-B84A-4178-933E-6DA3E9CE8398"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movies/UIImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "downloaded(from:contentMode:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB83896D-B84A-4178-933E-6DA3E9CE8398 - df573c2a11c8fb67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.downloaded(from: Foundation.URL, contentMode: __C.UIViewContentMode, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aadilkhaskheli/Documents/GitHub/Movies/Movies/UIImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1926">
+               </Location>
+               <Location
+                  uuid = "EB83896D-B84A-4178-933E-6DA3E9CE8398 - df573c2a11c8fb67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.downloaded(from: Foundation.URL, contentMode: __C.UIViewContentMode, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aadilkhaskheli/Documents/GitHub/Movies/Movies/UIImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1965">
+               </Location>
+               <Location
+                  uuid = "EB83896D-B84A-4178-933E-6DA3E9CE8398 - df573c2a11c8fb67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.downloaded(from: Foundation.URL, contentMode: __C.UIViewContentMode, completion: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Movies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aadilkhaskheli/Documents/GitHub/Movies/Movies/UIImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1992">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40F4D46-3870-45B7-8FA4-785AA77380AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Movies/UIImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "downloaded(from:contentMode:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
